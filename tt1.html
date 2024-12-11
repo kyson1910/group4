@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin Thành Viên</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #74ebd5, #acb6e5); /* Background đẹp hơn */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 20px; /* Bo tròn khung */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid #4CAF50; /* Đường viền màu xanh */
+        }
+
+        h1 {
+            font-size: 1.8em;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .info {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .info strong {
+            color: #333;
+        }
+
+        .audio-player {
+            margin-top: 10px;
+        }
+		.anh{
+			position: absolute;
+			
+		}
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+	 <h1>Thông Tin Thành Viên</h1>
+        <div class="info">
+			<img src="https://scontent.fsgn8-2.fna.fbcdn.net/v/t39.30808-1/314730637_194895836436108_6129407222474791806_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeFiW20YXMG9yUGdZ1OYEl2L1QShMj7T5J7VBKEyPtPknji9Ei_DZ5m2yOaegIExrnsyk28IDcDuAM2uXYORVZv9&_nc_ohc=HnqZlP80nlEQ7kNvgHrnoPE&_nc_zt=24&_nc_ht=scontent.fsgn8-2.fna&_nc_gid=AmDDX-xGJIuEYrOEy8-qyo3&oh=00_AYBbvOLZFac4v4uCD7bxHM09mI4somOe2ZCOfs-BnCAeLw&oe=675F0FB5" class="anh"width="auto" height="150px" style="left: 57%;">
+            <p><strong>Tên:</strong> Võ Tường Huy</p>
+			<p><strong>Giới tính:</strong> Nam</p>
+            <p><strong>Ngày tháng năm sinh:</strong> 14/11/2007</p>
+            <p><strong>Quê quán:</strong> Thành phố Bến Tre, Bến Tre</p>
+            <p><strong>Lớp:</strong> 12 Hóa</p>
+            <p><strong>Trường:</strong> Trường THPT Chuyên Bến Tre</p>
+            <p><strong>Sở thích:</strong> Tập gym</p>
+            <p><strong>Nghề nghiệp yêu thích:</strong> PT </p>
+            <p><strong>Bài hát yêu thích:</strong> Moonlight</p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="th.mp3" type="audio/mpeg">
+                    Trình duyệt của bạn không hỗ trợ thẻ audio.
+                </audio>
+            </div>
+        </div>
+        <div class="footer">
+            <p><strong>Vài điều về mình:</strong> </p>
+        </div>
+    </div>
+</body>
+</html>
