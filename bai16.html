@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>    
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .banner {
+            background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+            background-size: cover;
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+            text-align: center;
+            color: darkred;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .banner h2 {
+            font-size: 36px;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.7);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .content h3, .content h4 {
+            color: #d9534f;
+        }
+        .content p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+        pre {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="content">
+        <h3>LUYỆN TẬP</h3>
+        <h4>1. Phần tử HTML có thể ẩn đi trên trang web được không? Nếu có thì dùng lệnh CSS gì?</h4>
+        <p>Có, có thể sử dụng CSS để ẩn phần tử HTML bằng các cách sau:</p>
+        <pre>
+display: none; /* Ẩn phần tử và không chiếm không gian */
+visibility: hidden; /* Ẩn phần tử nhưng vẫn chiếm không gian */
+        </pre>
+        
+        <h4>2. Giải thích ý nghĩa định dạng sau:</h4>
+        <pre>
+.test .test_more {background-color: red;}
+        </pre>
+        <p>Định dạng trên áp dụng màu nền đỏ cho bất kỳ phần tử nào có class "test_more" nhưng chỉ khi nó nằm bên trong một phần tử có class "test".</p>
+        
+        <h3>VẬN DỤNG</h3>
+        <h4>1. Định dạng các đoạn văn quan trọng</h4>
+        <p>Ta có thể sử dụng CSS để định dạng riêng các đoạn văn quan trọng bằng cách:</p>
+        <pre>
+#P1 { color: blue; font-weight: bold; }
+#P2 { color: green; font-style: italic; }
+#P3 { color: red; text-decoration: underline; }
+        </pre>
+        
+        <h4>2. Định dạng các khung với thông số khác nhau</h4>
+        <p>Ta có thể thiết lập viền khung khác nhau bằng cách:</p>
+        <pre>
+.box1 { border: 2px solid black; }
+.box2 { border: 3px dashed blue; }
+.box3 { border: 4px dotted red; }
+        </pre>
+    </div>
+</body>
+</html>

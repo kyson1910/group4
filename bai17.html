@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>    
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .banner {
+            background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+            background-size: cover;
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+            text-align: center;
+            color: darkred;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .banner h2 {
+            font-size: 36px;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.7);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .content h3 {
+            color: #d9534f;
+        }
+        .content p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+ 
+    <div class="content">
+        <h3>1. Giải thích sự khác nhau giữa hai định dạng sau:</h3>
+        <pre>
+#p123 + p {color: red ;}
+h2#p123 + p {color: red ;}
+        </pre>
+        <p>Định dạng đầu tiên áp dụng cho bất kỳ phần tử &lt;p&gt; nào ngay sau một phần tử có ID "p123". 
+        Định dạng thứ hai chỉ áp dụng cho phần tử &lt;p&gt; ngay sau một phần tử &lt;h2&gt; có ID "p123".</p>
+        
+        <h3>2. Làm thế nào để định dạng tên riêng (tên người, tổ chức) bằng khung và in nghiêng?</h3>
+        <p>Ta có thể sử dụng CSS để định dạng như sau:</p>
+        <pre>
+.name {
+    font-style: italic;
+    border: 1px solid black;
+    padding: 2px 5px;
+    display: inline-block;
+}
+        </pre>
+        
+        <h3>VẬN DỤNG</h3>
+        <h4>1. Tìm hiểu thêm các dạng pseudo-class</h4>
+        <p>Pseudo-class như <code>:hover</code>, <code>:nth-child()</code>, <code>:focus</code> giúp chọn các phần tử trong các trạng thái đặc biệt.</p>
+        
+        <h4>2. Tìm hiểu thêm các dạng pseudo-element</h4>
+        <p>Pseudo-element như <code>::before</code> và <code>::after</code> giúp chèn nội dung vào trước hoặc sau một phần tử.</p>
+    </div>
+</body>
+</html>
